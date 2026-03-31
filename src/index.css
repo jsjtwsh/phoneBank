@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  /* 375 design draft: 1rem = 16px at 375px viewport */
+  font-size: clamp(12px, 4.266667vw, 20px);
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
