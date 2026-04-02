@@ -623,25 +623,25 @@ function App() {
           <div className="absolute left-[5.875rem] top-4">
             <p className="text-[0.875rem] text-[#232a49]">美国运通百夫长白金卡</p>
           </div>
-          <div className="absolute left-[4.5625rem] top-[4.5rem] flex gap-2">
+          <div className="absolute left-[4.5625rem] top-[3rem] flex gap-2">
             <img src={xinyong1} alt="" className="w-[11.25rem] h-[7.125rem] mr-[3rem]" />
             <img src={xinyong2} alt="" className="w-[1.5625rem] h-[5.625rem]" />
           </div>
           <div className="absolute bottom-3 left-3 right-3 flex justify-between">
             <div className="flex flex-col items-center">
-              <div className="w-[3rem] h-[3rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
+              <div className="w-[1.5rem] h-[1.5rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
                 <img src={xinyongIcon1} alt="" className="w-[1.25rem] h-[1.25rem]" />
               </div>
               <span className="mt-1 text-[0.625rem] text-[#232a49] text-center">每月首笔取现<br/>免手续费</span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-[3rem] h-[3rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
+              <div className="w-[1.5rem] h-[1.5rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
                 <img src={xinyongIcon2} alt="" className="w-[1.25rem] h-[1.25rem]" />
               </div>
               <span className="mt-1 text-[0.625rem] text-[#232a49] text-center">200万<br/>航空意外保险</span>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-[3rem] h-[3rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
+              <div className="w-[1.5rem] h-[1.5rem] bg-[#e7d2b2]/35 rounded-[0.5rem] flex items-center justify-center">
                 <img src={xinyongIcon3} alt="" className="w-[1.25rem] h-[1.25rem]" />
               </div>
               <span className="mt-1 text-[0.625rem] text-[#232a49] text-center">高端精密镭射<br/>烫印工艺</span>
