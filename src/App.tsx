@@ -491,16 +491,16 @@ function App() {
           <button className="text-xs text-[#888]" aria-label="更多">身边服务 贴心随行</button>
         </div>
         <div className="relative h-[15rem] overflow-hidden rounded-[0.5rem]">
-          <img src={payment1} alt="" className="absolute bottom-0 left-0 w-[348px] h-[496px]" />
+          <img src={payment1} alt="" className="absolute bottom-0 left-0 w-[21.75rem] h-[31rem]" />
           <div className="absolute inset-0 bg-linear-to-t from-[#59473d]/60 to-transparent" />
           
           {activeServiceTab === '养老金融' && (
             <div className="absolute inset-0">
-              <img src={yanglao1} alt="" className="absolute top-0 left-0 w-[418px] h-[313px]" />
+              <img src={yanglao1} alt="" className="absolute bottom-0 left-0 w-[26.125rem] h-[19.5625rem]" />
               <div className="absolute left-3 top-4">
                 <p className="text-[1rem] font-semibold text-white">养老金融</p>
                 <p className="text-[0.75rem] text-white">提前规划 未来无忧</p>
-              </div>
+              </div>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
               <div className="absolute bottom-8 left-3 right-[7.5rem] flex justify-between">
                 <div className="w-[3rem] h-[3rem] bg-[rgba(255,255,255,0.85)] rounded-[0.5rem] flex flex-col items-center justify-center">
                   <img src={yanglao1Icon} alt="" className="w-[1.5rem] h-[1.5rem]" />
@@ -525,15 +525,15 @@ function App() {
                 <p className="text-[0.75rem] text-white">生活服务 一键直达</p>
               </div>
               <div className="absolute bottom-8 left-3 flex gap-3">
-                <button className="flex flex-col items-center justify-center w-[50px] h-[48px] bg-white rounded-[8px]" aria-label="充话费">
+                <button className="flex flex-col items-center justify-center w-[3.125rem] h-[3rem] bg-white rounded-[0.5rem]" aria-label="充话费">
                   <img src={paymentPhone} alt="" className="h-[1.5rem] w-[1.5rem]" />
                   <span className="text-[0.5rem] text-[#111]">充话费</span>
                 </button>
-                <button className="flex flex-col items-center justify-center w-[50px] h-[48px] bg-white rounded-[8px]" aria-label="充电费">
+                <button className="flex flex-col items-center justify-center w-[3.125rem] h-[3rem] bg-white rounded-[0.5rem]" aria-label="充电费">
                   <img src={paymentElectricity} alt="" className="h-[1.5rem] w-[1.5rem]" />
                   <span className=" text-[0.5rem] text-[#111]">充电费</span>
                 </button>
-                <button className="flex flex-col items-center justify-center w-[50px] h-[48px] bg-white rounded-[8px]" aria-label="充水费">
+                <button className="flex flex-col items-center justify-center w-[3.125rem] h-[3rem] bg-white rounded-[0.5rem]" aria-label="充水费">
                   <img src={paymentBlueElectricity} alt="" className="h-[1.5rem] w-[1.5rem]" />
                   <span className="text-[0.5rem] text-[#111]">充水费</span>
                 </button>
@@ -543,7 +543,7 @@ function App() {
           
           {activeServiceTab === '推荐好礼' && (
             <div className="absolute inset-0">
-              <img src={tese1} alt="" className="absolute bottom-0 left-0 w-[348px] h-[264px]" />
+              <img src={tese1} alt="" className="absolute bottom-0 left-0 w-[21.75rem] h-[16.5rem]" />
               <div className="absolute left-3 top-4">
                 <p className="text-[1rem] font-semibold text-white">推荐好礼</p>
                 <p className="text-[0.75rem] text-white">参加活动 福利相伴</p>
@@ -553,7 +553,7 @@ function App() {
           
           {activeServiceTab === '兴成长' && (
             <div className="absolute inset-0">
-              <img src={chengzhang1} alt="" className="absolute top-0 left-0 w-[348px] h-[327px]" />
+              <img src={chengzhang1} alt="" className="absolute top-0 left-0 w-[21.75rem] h-[20.4375rem]" />
               <div className="absolute left-3 top-4">
                 <p className="text-[1rem] font-semibold text-white">兴成长</p>
                 <p className="text-[0.75rem] text-white">知识课堂 财富进阶</p>
@@ -575,7 +575,7 @@ function App() {
             </div>
           )}
           
-          <div className="absolute right-0 top-0 h-full w-[105px] rounded-tr-[0.5rem] rounded-br-[0.5rem] bg-[rgba(255,255,255,0.5)] backdrop-blur-sm">
+          <div className="absolute right-0 top-0 h-full w-[6.5625rem] rounded-tr-[0.5rem] rounded-br-[0.5rem] bg-[rgba(255,255,255,0.5)] backdrop-blur-sm">
             <div className="flex flex-col items-center h-full py-3">
               <button 
                 onClick={() => setActiveServiceTab('养老金融')}
@@ -624,8 +624,8 @@ function App() {
             <p className="text-[0.875rem] text-[#232a49]">美国运通百夫长白金卡</p>
           </div>
           <div className="absolute left-[4.5625rem] top-[4.5rem] flex gap-2">
-            <img src={xinyong1} alt="" className="w-[8.9305rem] h-[5.625rem]" />
-            <img src={xinyong2} alt="" className="w-[8.9305rem] h-[5.625rem]" />
+            <img src={xinyong1} alt="" className="w-[11.25rem] h-[7.125rem] mr-[3rem]" />
+            <img src={xinyong2} alt="" className="w-[1.5625rem] h-[5.625rem]" />
           </div>
           <div className="absolute bottom-3 left-3 right-3 flex justify-between">
             <div className="flex flex-col items-center">
